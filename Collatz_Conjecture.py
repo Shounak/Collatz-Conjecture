@@ -1,9 +1,16 @@
+# Because Python is interpreted, there is no exe file.
+# therefore, you need to have matplotlib installed for this program to work
+# numpy (a library necessary for matplotlib) is included in the directory
+
 def collatz(n):
     if (n < 1):
         print "n needs to be a positive integer"
         return
-    print( str(n) + "  "),
+    plotList.append(n)
     if n is 1:
+        plt.plot(plotList)
+        plt.xlabel('iteration')
+        plt.show()
         return
     if n % 2 is 0:
         n = n/2
@@ -12,13 +19,7 @@ def collatz(n):
         n = n + 1
     return collatz(n)
 
-import sys
-print (sys.version)
-import numpy
-#print numpy.__version__
-
 import matplotlib.pyplot as plt
-plt.plot([1,2,3,4])
-plt.ylabel('some numbers')
-plt.show()
-#collatz(3)
+plotList = []
+n = input('Enter a value for n: ')
+collatz(n)
