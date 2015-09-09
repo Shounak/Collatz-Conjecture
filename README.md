@@ -3,8 +3,8 @@ Visualize Collatz's Conjecture on a scatter plot starting from any N as it decom
 
 Collatz's Conjecture is as follows: 
 - Take any natural number n
-- If n is even, divide it by 2 to get n / 2
-- If n is odd, multiply it by 3 and add 1 to obtain 3n + 1
+  - If n is even, divide it by 2 to get n / 2
+  - If n is odd, multiply it by 3 and add 1 to obtain 3n + 1
 - Repeat the process
 
 The conjecture is that no matter what number you start with, you will always eventually reach 1. 
