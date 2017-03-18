@@ -11,4 +11,4 @@ The conjecture is that no matter what number you start with, you will always eve
 The interesting part is that though the conjecture's rules are simple, it is exceptionally hard to prove mathematically. 
 In fact, the conjecture has plenty of experimental evidence but has never been proven for the general case. 
 
-[More information] (http://en.wikipedia.org/wiki/Collatz_conjecture)
+[More information](http://en.wikipedia.org/wiki/Collatz_conjecture)
